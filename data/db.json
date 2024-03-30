@@ -4,28 +4,249 @@
         "titulo": "O que é JavaScript?" ,
         "descricao" : "Linguagem de programação de alto nível, interpretada e orientada a objetos amplamente usada para criar páginas web dinâmicas e interativas."
     },
-
     {
         "id": 2 ,
         "titulo": "Variável" ,
         "descricao" : "Um contêiner para armazenar valores de dados."
     },
-
     {
         "id": 3 ,
         "titulo": "Função" ,
         "descricao" : "Um bloco de código reutilizável projetado para realizar uma tarefa específica."
     },
-
     {
         "id": 4 ,
         "titulo": "Array" ,
         "descricao" : "Uma estrutura de dados que pode armazenar vários elementos em uma única variável."
     },
-
     {
         "id": 5 ,
         "titulo": "Objeto" ,
         "descricao" : "Uma coleção de propriedades, onde cada propriedade é uma associação entre um nome (ou chave) e um valor."
+    },
+    {
+        "id": 6 ,
+        "titulo": "DOM (Document Object Model)" ,
+        "descricao" : "Uma interface de programação que representa documentos HTML e XML como uma árvore de objetos, permitindo acesso e manipulação dinâmica aos elementos da página."
+    },
+    {
+        "id": 7 ,
+        "titulo": "Eventos" ,
+        "descricao" : "Ações que ocorrem em resposta a interações do usuário ou ações do sistema, como cliques do mouse, pressionamentos de teclas ou carregamento da página."
+    },
+    {
+        "id": 8 ,
+        "titulo": "Método" ,
+        "descricao" : "Uma função associada a um objeto, que pode ser chamada para realizar operações específicas sobre esse objeto."
+    },
+    {
+        "id": 9 ,
+        "titulo": "Operadores" ,
+        "descricao" : "Símbolos que representam operações matemáticas, lógicas ou de comparação, como adição (+), subtração (-) e igualdade (==)."
+    },
+    {
+        "id": 10 ,
+        "titulo": "Condicionais" ,
+        "descricao" : "Estruturas de controle que permitem executar diferentes blocos de código com base em condições específicas, como 'if', 'else if' e 'else'."
+    },
+    {
+        "id": 11 ,
+        "titulo": "Loop (Laço)" ,
+        "descricao" : "Estrutura de controle que permite executar repetidamente um bloco de código enquanto uma condição específica for verdadeira, como 'for', 'while' e 'do...while'."
+    },
+    {
+        "id": 12 ,
+        "titulo": "Escopo" ,
+        "descricao" : "O contexto em que as variáveis são declaradas e acessíveis. O escopo pode ser global ou local."
+    },
+    {
+        "id": 13 ,
+        "titulo": "Closure" ,
+        "descricao" : "Uma função que mantém uma referência ao escopo em que foi criada, permitindo acesso a variáveis desse escopo mesmo após a função ter sido retornada."
+    },
+    {
+        "id": 14 ,
+        "titulo": "Callback" ,
+        "descricao" : "Uma função passada como argumento para outra função e executada posteriormente, geralmente em resposta a algum evento ou ação."
+    },
+    {
+        "id": 15 ,
+        "titulo": "Promises" ,
+        "descricao" : "Um objeto representando o eventual resultado de uma operação assíncrona, que pode ser resolvido (sucesso) ou rejeitado (falha)."
+    },
+    {
+        "id": 16 ,
+        "titulo": "Async/Await" ,
+        "descricao" : "Recursos introduzidos no ES2017 para lidar com programação assíncrona de forma mais legível e concisa, permitindo escrever código assíncrono como se fosse síncrono."
+    },
+    {
+        "id": 17 ,
+        "titulo": "Prototype" ,
+        "descricao" : "Um mecanismo em JavaScript pelo qual objetos herdam propriedades e métodos uns dos outros."
+    },
+    {
+        "id": 18 ,
+        "titulo": "Herança" ,
+        "descricao" : "O processo pelo qual um objeto adquire as propriedades e métodos de outro objeto, permitindo compartilhar funcionalidades e promovendo a reutilização de código."
+    },
+    {
+        "id": 19 ,
+        "titulo": "Hoisting" ,
+        "descricao" : "Um comportamento em JavaScript onde as declarações de variáveis e funções são movidas para o topo do seu escopo durante a fase de compilação."
+    },
+    {
+        "id": 20 ,
+        "titulo": "Strict mode" ,
+        "descricao" : "Uma diretiva especial que introduz regras mais restritas para o comportamento do JavaScript, ajudando a evitar erros comuns e a tornar o código mais seguro."
+    },
+    {
+        "id": 21 ,
+        "titulo": "Operador de atribuição" ,
+        "descricao" : "Um operador usado para atribuir um valor a uma variável, como '='."
+    },
+    {
+        "id": 22 ,
+        "titulo": "Operadores aritméticos" ,
+        "descricao" : "Operadores usados para realizar operações matemáticas, como adição (+), subtração (-) e multiplicação (*)."
+    },
+    {
+        "id": 23 ,
+        "titulo": "Operadores de comparação" ,
+        "descricao" : "Operadores usados para comparar valores, como igualdade (==), desigualdade (!=), maior que (>), etc."
+    },
+    {
+        "id": 24 ,
+        "titulo": "Operadores lógicos" ,
+        "descricao" : "Operadores usados para combinar ou inverter valores lógicos, como '&&' (e lógico), '||' (ou lógico) e '!' (negação lógica)."
+    },
+    {
+        "id": 25 ,
+        "titulo": "Operador de concatenação" ,
+        "descricao" : "Um operador usado para unir duas ou mais strings, como '+' em JavaScript."
+    },
+    {
+        "id": 26 ,
+        "titulo": "Operador ternário" ,
+        "descricao" : "Um operador condicional que avalia uma expressão e retorna um valor com base em uma condição verdadeira ou falsa."
+    },
+    {
+        "id": 27 ,
+        "titulo": "Template literals" ,
+        "descricao" : "Uma forma mais conveniente de criar strings em JavaScript, permitindo a interpolação de variáveis e expressões dentro de strings delimitadas por crases."
+    },
+    {
+        "id": 28 ,
+        "titulo": "Arrow functions" ,
+        "descricao" : "Uma sintaxe mais curta e concisa para definir funções em JavaScript, introduzida no ES6, usando a seta '=>'."
+    },
+    {
+        "id": 29 ,
+        "titulo": "Destructuring assignment" ,
+        "descricao" : "Uma expressão JavaScript que permite extrair valores de arrays ou objetos e atribuí-los a variáveis em uma única instrução."
+    },
+    {
+        "id": 30 ,
+        "titulo": "Spread operator" ,
+        "descricao" : "Um operador introduzido no ES6 que permite expandir elementos de um array ou propriedades de um objeto em lugares onde múltiplos argumentos ou elementos são esperados."
+    },
+    {
+        "id": 31 ,
+        "titulo": "Rest parameter" ,
+        "descricao" : "Um parâmetro de função que permite representar um número indefinido de argumentos como um array."
+    },
+    {
+        "id": 32 ,
+        "titulo": "Map" ,
+        "descricao" : "Um objeto em JavaScript que armazena pares chave/valor e permite iteração sobre eles na ordem de inserção dos elementos."
+    },
+    {
+        "id": 33 ,
+        "titulo": "Set" ,
+        "descricao" : "Uma coleção de valores únicos em JavaScript, semelhante a um array, mas sem índices e sem elementos duplicados."
+    },
+    {
+        "id": 34 ,
+        "titulo": "Filter" ,
+        "descricao" : "Um método de array em JavaScript que cria um novo array com todos os elementos que passam por um teste especificado por uma função."
+    },
+    {
+        "id": 35 ,
+        "titulo": "Reduce" ,
+        "descricao" : "Um método de array em JavaScript que reduz um array a um único valor, aplicando uma função a cada elemento do array."
+    },
+    {
+        "id": 36 ,
+        "titulo": "Fetch API" ,
+        "descricao" : "Uma interface JavaScript para buscar recursos de forma assíncrona através da rede, substituindo o antigo XMLHttpRequest (XHR)."
+    },
+    {
+        "id": 37 ,
+        "titulo": "Local Storage" ,
+        "descricao" : "Uma API em JavaScript que permite armazenar dados localmente no navegador do usuário, persistindo entre sessões e recarregamentos da página."
+    },
+    {
+        "id": 38 ,
+        "titulo": "Event delegation" ,
+        "descricao" : "Um padrão de design em JavaScript onde um único manipulador de evento é colocado no elemento pai de vários elementos, permitindo capturar eventos que se originam de seus filhos."
+    },
+    {
+        "id": 39 ,
+        "titulo": "Module" ,
+        "descricao" : "Um arquivo JavaScript (ou mais precisamente, um script) que encapsula código relacionado em um escopo fechado, evitando conflitos de nomeação e promovendo a reutilização de código."
+    },
+    {
+        "id": 40 ,
+        "titulo": "ES6 (ECMAScript 2015)" ,
+        "descricao" : "A sexta versão da especificação ECMAScript, lançada em 2015, introduzindo muitas novas funcionalidades e melhorias na linguagem JavaScript."
+    },
+    {
+        "id": 41 ,
+        "titulo": "Babel" ,
+        "descricao" : "Um transpilador JavaScript que converte código ECMAScript 2015+ em uma versão compatível com versões anteriores do JavaScript para garantir a compatibilidade com navegadores mais antigos."
+    },
+    {
+        "id": 42 ,
+        "titulo": "Webpack" ,
+        "descricao" : "Um empacotador de módulos JavaScript que é amplamente utilizado para criar bundles (pacotes) de arquivos JavaScript, CSS e outros recursos para uso em aplicativos da web."
+    },
+    {
+        "id": 43 ,
+        "titulo": "IIFE (Immediately Invoked Function Expression)" ,
+        "descricao" : "Um padrão em JavaScript que envolve uma função em parênteses e a invoca imediatamente, criando um escopo privado para evitar poluição global."
+    },
+    {
+        "id": 44 ,
+        "titulo": "CORS (Cross-Origin Resource Sharing)" ,
+        "descricao" : "Um mecanismo de segurança em navegadores que restringe solicitações de recursos de um origin para outro em aplicações da web, a menos que ambos tenham políticas CORS adequadas configuradas."
+    },
+    {
+        "id": 45 ,
+        "titulo": "AJAX (Asynchronous JavaScript and XML)" ,
+        "descricao" : "Uma técnica em JavaScript para enviar e receber dados de forma assíncrona de um servidor web, permitindo atualizações dinâmicas de uma página sem recarregar toda a página."
+    },
+    {
+        "id": 46 ,
+        "titulo": "Cookie" ,
+        "descricao" : "Um pequeno arquivo de texto armazenado no navegador do usuário que contém informações sobre o usuário ou sua interação com o site."
+    },
+    {
+        "id": 47 ,
+        "titulo": "Session Storage" ,
+        "descricao" : "Uma API em JavaScript semelhante ao Local Storage, mas que armazena os dados apenas para a duração da sessão do navegador."
+    },
+    {
+        "id": 48 ,
+        "titulo": "Web Workers" ,
+        "descricao" : "Uma tecnologia em JavaScript que permite executar scripts em segundo plano em threads separados do thread principal da interface do usuário, aumentando o desempenho em tarefas intensivas de CPU."
+    },
+    {
+        "id": 49 ,
+        "titulo": "Cross-browser compatibility" ,
+        "descricao" : "A capacidade de um site ou aplicativo da web funcionar de forma consistente em diferentes navegadores da web, sem apresentar erros ou comportamentos inesperados."
+    },
+    {
+        "id": 50 ,
+        "titulo": "Event loop" ,
+        "descricao" : "Um mecanismo em JavaScript que permite que operações assíncronas sejam executadas de forma não bloqueante, garantindo a responsividade da interface do usuário."
     }
 ]
