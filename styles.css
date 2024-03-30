@@ -9,10 +9,14 @@ body{
 #txt-desc {
     width: 300px; /* Defina a largura desejada */
     height: 200px; /* Defina a altura desejada */
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
 }
 
 #select-desc {
     width: 1000px; /* Defina a largura desejada */
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
 }
 
 footer{
