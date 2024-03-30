@@ -7,8 +7,9 @@ body{
 }
 
 #txt-desc {
-    width: 80vw;
-    height: 20vh; /* Ou outra altura desejada em viewport height */
+    width: 80%; /* ou outra largura desejada */
+    word-wrap: break-word; /* ou overflow-wrap: break-word; */
+    word-break: break-all;
 }
 
 #select-desc {
