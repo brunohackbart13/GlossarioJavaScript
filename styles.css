@@ -7,8 +7,8 @@ body{
 }
 
 #txt-desc {
-    width: 1000px; /* Defina a largura desejada */
-    height: 200px; /* Defina a altura desejada */
+    width: 80vw;
+    height: 20vh; /* Ou outra altura desejada em viewport height */
 }
 
 #select-desc {
