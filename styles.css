@@ -7,9 +7,8 @@ body{
 }
 
 #txt-desc {
-    width: 80%; /* ou outra largura desejada */
-    word-wrap: break-word; /* ou overflow-wrap: break-word; */
-    word-break: break-all;
+    width: 200px; /* Defina a largura desejada */
+    height: 200px; /* Defina a altura desejada */
 }
 
 #select-desc {
