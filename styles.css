@@ -14,6 +14,11 @@ body{
 #select-desc {
     width: 1000px; /* Defina a largura desejada */
 }
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+}
         
 
 
