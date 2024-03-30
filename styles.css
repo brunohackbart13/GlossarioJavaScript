@@ -1,0 +1,29 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: rgb(32, 97, 141);
+    text-align: center;
+    background-color:beige;
+}
+
+#txt-desc {
+    width: 1000px; /* Defina a largura desejada */
+    height: 200px; /* Defina a altura desejada */
+}
+
+#select-desc {
+    width: 1000px; /* Defina a largura desejada */
+}
+        
+
+
+main {
+    padding: 20px;
+}
+
+/* Estilos específicos para dispositivos móveis */
+@media only screen and (min-width: 600px) {
+    main {
+        padding: 40px;
+    }
+}

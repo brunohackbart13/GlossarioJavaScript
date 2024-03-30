@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1 ,
+        "titulo": "O que é JavaScript?" ,
+        "descricao" : "Linguagem de programação de alto nível, interpretada e orientada a objetos amplamente usada para criar páginas web dinâmicas e interativas."
+    },
+
+    {
+        "id": 2 ,
+        "titulo": "Variável" ,
+        "descricao" : "Um contêiner para armazenar valores de dados."
+    },
+
+    {
+        "id": 3 ,
+        "titulo": "Função" ,
+        "descricao" : "Um bloco de código reutilizável projetado para realizar uma tarefa específica."
+    },
+
+    {
+        "id": 4 ,
+        "titulo": "Array" ,
+        "descricao" : "Uma estrutura de dados que pode armazenar vários elementos em uma única variável."
+    },
+
+    {
+        "id": 5 ,
+        "titulo": "Objeto" ,
+        "descricao" : "Uma coleção de propriedades, onde cada propriedade é uma associação entre um nome (ou chave) e um valor."
+    }
+]

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Glossário JavaScript</title>
+    <!-- Link para seu arquivo CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="js/jquery-3.7.1"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/db.js"></script>
+    <script src="js/main.js"></script> <!-- Coloque main.js após db.js -->
+</head>
+<body>
+    <div class="container">
+        <div class="centered-container">
+            <img src="logo_js.jpg" alt="Logo do site" style="width: 200px; height: auto;">
+        </div>
+        <div>
+            <h1>Glossário JavaScript</h1><!-- Conteúdo do seu glossário aqui -->
+            <p>Escolha um termo e veja a sua definição:</p>
+            <select title="Tópicos" id="slc-topicos" onchange="onSelectChange()">
+            </select>
+            <p>Descrição</p>
+            <textarea id="txt-desc" name="description" title="descricao" placeholder=""></textarea>
+        </div>
+    </div>
+    
+    <script>
+        $(document).ready(function() {
+            db.init(initSelect); // Chame db.init após o documento estar pronto
+        });
+
+        function initSelect() {
+            var select = $('#slc-topicos');
+            $.each(db.data, function(index, item) {
+                select.append($('<option>', {
+                    value: item.id,
+                    text: item.titulo
+                }));
+            });
+        }
+
+        $('#slc-topicos').change(function() {
+            var id = $(this).val();
+            var item = db.data.find(function(item) {
+                return item.id == id;
+            });
+            $('#txt-desc').text(item.descricao);
+        });
+    </script>
+</body>
+</html>
